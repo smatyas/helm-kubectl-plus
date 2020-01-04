@@ -6,7 +6,7 @@ branches:
 
 env:
   DOCKER_IMAGE=smatyas/helm-kubectl-plus
-  DOCKER_TAG=2.16.0
+  DOCKER_TAG=2.16.1
 
 services:
   - docker
