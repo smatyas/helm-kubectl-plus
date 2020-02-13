@@ -1,6 +1,6 @@
 # base tag from https://hub.docker.com/r/dtzar/helm-kubectl/tags
 ARG BASE_TAG=latest
-ARG YQ_TAG=2.4.1
+ARG YQ_TAG=3
 
 FROM mikefarah/yq:${YQ_TAG} as yq_base
 
